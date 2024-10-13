@@ -1,0 +1,120 @@
+.movieCard img {
+  width: 190px;
+  height: 250px;
+}
+
+.movieList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+
+.firstSection {
+  display: flex;
+}
+
+.divFilter {
+  width: 600px;
+  display: flex;
+  padding-left: 250px;
+  align-items: center;
+}
+
+.divInputForm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middleDiv {
+  display: flex;
+  justify-content: start;
+
+}
+
+.seenCounterOutput {
+  color: #2f67cc;
+  text-Align: center;
+  font-Family: fantasy;
+  font-Size: 40px;
+  font-Style: oblique;
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
+.unSeenCounterOutput {
+  color: #010100;
+  text-Align: center;
+  font-Family: fantasy;
+  font-Size: 40px;
+  font-Style: oblique;
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.inputLabel {
+  font-Family: fantasy;
+}
+
+.inputField {
+  font-Family: fantasy;
+}
+
+.addButton {
+  font-Family: fantasy;
+  font-Size: 20px;
+}
+
+.input-wrapper input {
+  border: 1px solid gray;
+  border-radius: 6px;
+  position: relative;
+  width: 300px;
+  margin: 10px;
+  line-height: 6ex;
+}
+
+.input-wrapper label {
+  position: absolute;
+  top: 0.2ex;
+  z-index: 1;
+  left: 2em;
+  background-color: white;
+  padding: 0 5px;
+}
+
+.divInputForm button {
+  border-radius: 6px;
+  position: relative;
+  width: 300px;
+  margin: 10px;
+  line-height: 6ex;
+}
+
+.movieCard {
+
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 5%;
+  width: 190px;
+  height: 380px;
+}
+
+.EyeIcon {
+  position: absolute;
+  left: 12em;
+  z-index: 2;
+  width: 80px;
+  height: 60px;
+}
+
+.AppEyeIcon {
+  width: 80px;
+  height: 60px;
+}
